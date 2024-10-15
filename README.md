@@ -30,12 +30,14 @@ Queries Included
 9. Top 2 Selling Albums Each Year (with Artist Names)
 •	Query: Shows the top 2 selling albums each year, along with the associated artist names.
 •	Purpose: To determine which albums and artists drove the most sales each year.
+
 SQL Techniques Used
 •	Window Functions: RANK(), LAG() for ranking and comparing rows within partitions.
 •	Aggregations: SUM(), COUNT() to calculate total sales, track sales volume, and number of reports.
 •	JOINs: Various types of joins (INNER JOIN, LEFT JOIN, RIGHT JOIN) to merge tables such as employee, invoice, customer, and track.
 •	Subqueries: Both inline and Common Table Expressions (CTEs) for modular and readable query structures.
 •	Filters: WHERE, HAVING clauses to filter records based on specific conditions.
+
 Conclusion
 This project offers valuable insights into business operations, including customer behavior, sales trends, and employee management. It leverages powerful SQL techniques to perform advanced data analysis, helping organizations make data-driven decisions.
 
