@@ -58,7 +58,7 @@ group by year (invoice_date),billing_country,year (invoice_date),Datepart(QUARTE
 
 
 
--- Q6.Sales top 2 cities from each country with highest sales
+-- Q6.Select top 2 cities from each country with highest sales
 
 select * from (
 				select billing_country, billing_city ,
